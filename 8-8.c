@@ -2,7 +2,7 @@
 
 void main()
 {
-	char ss[5] ="abcd";
+	char ss[5] = "abcd";
 	char tt[5];
 	int i;
 
@@ -10,7 +10,7 @@ void main()
 	{
 		tt[i] = ss[3-i];
 	}
-	tt[4]= '\0';
+	tt[4] ='\0';
 
 	printf("거꾸로 출력한 결과 ==> %s \n", tt);
 }
